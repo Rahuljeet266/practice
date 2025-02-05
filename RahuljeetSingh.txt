@@ -1,0 +1,48 @@
+1.)     Fetch latest code from remote repository of the team project.
+2.)     Work on local repository starts.
+3.)     git local repository initialize.
+        (code files added on staging.
+         code files commited once work is done )
+4.)     mapping with remote reposirtory.(GITHUB>CoM)
+5.)     Pushing the committed repository on remote .
+
+
+
+6.) cd . . to get to previous file 
+7.) cd FIle name 
+    ls
+
+    cat command( to read the content of the file)
+    echo "" command (append the file and if file is note there then file is created and append the text)
+    git init 
+    git status
+    git add
+    git commit -m"ANy line you can write"
+    git diff(it tells the difference between two files in which we have done changes)
+    git diff --staged
+    (now if changes is done and file is committed then ---)
+    git log --oneline
+    (This is all done in local repository )
+
+
+
+
+
+Now we have to do our work in remote repository we have to push our files in it
+   git remote add origin 
+   (if the error is that another mapping has already then change the origin)
+   git push -u origin main( to push the file)
+Now the file has transferred to remote repository
+(This all above work has been done upto before )
+
+(How to upload tags in file)
+   git tag( to check tag if already exist )
+   git tag -a (name of tag)(to add we have to do this code. we can also add message by -m"")
+   git tag (Now tag will be visible)
+   git show (tag name)   
+ There are two types of tag annonated tag and light weight tag.(in annonated we have to write the message and in light weight we have not to write the message)
+git push -u origin tagName(this push this file with tag to remote repository)
+Why tags are made(clusters of codes to be released) 
+
+
+
